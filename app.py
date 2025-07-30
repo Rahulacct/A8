@@ -1,6 +1,6 @@
 import streamlit as st
-from forecast import forecast_stock  # Import the forecasting function
-from utils import plot_forecast  # Import the plotting function
+from forecast import forecast_stock  # Import the forecasting function from forecast.py
+from plot_forecast import plot_forecast  # Import the plotting function from plot_forecast.py
 
 # App title and description
 st.title("📈 NSE Stock Price Forecast App")
