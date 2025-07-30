@@ -21,5 +21,3 @@ To run the app locally, you will need to install the following Python packages:
 - `statsmodels`: For applying **Exponential Smoothing**.
 - `pandas`: For data manipulation.
 - `matplotlib`: For plotting the historical and forecasted stock prices.
-```bash
-pip install -r requirements.txt
