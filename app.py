@@ -88,5 +88,3 @@ if forecast_button:
 
     except Exception as e:
         st.error(f"⚠️ Error: {e}")
-
-st.markdown("<div class='result-container'><img src='https://via.placeholder.com/800x400.png?text=Forecast+Graph' alt='forecast-example' style='width:100%; margin-top: 20px;'/></div>", unsafe_allow_html=True)
